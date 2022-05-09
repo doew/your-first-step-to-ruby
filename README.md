@@ -1,4 +1,5 @@
 # your-first-step-to-ruby
-ruby入門的な。
+プログラミング初学者向け、Rubyオンボーディング。
+資料は作りかけなので、誤り訂正や質問など大歓迎です。
 
-全5編ぐらいにするつもりです。
+Webで見たい人向け→ https://doew.github.io/your-first-step-to-ruby/index.html
