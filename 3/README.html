@@ -61,10 +61,12 @@ tips: ruby では、後置if という <code>if</code>のキーワードと論�
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-heading-divider="3" style="--heading-divider:3;">
 <h3>サンプルコード</h3>
 <pre><code class="language-rb"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span></span>
-  <span class="hljs-keyword">attr_reader</span> <span class="hljs-symbol">:name</span>
-
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">make_sound</span></span>
     puts <span class="hljs-string">&quot;meow&quot;</span>
+  <span class="hljs-keyword">end</span>
+
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">name</span><span class="hljs-params">(name)</span></span>
+    <span class="hljs-variable">@name</span> = name
   <span class="hljs-keyword">end</span>
 <span class="hljs-keyword">end</span>
 </span></span></foreignObject></svg></code></pre>

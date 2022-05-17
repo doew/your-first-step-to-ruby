@@ -67,7 +67,7 @@ EDITOR に何か入力してある場合には予め消しておくようにし�
 print(<span class="hljs-string">&quot;Hello World&quot;</span>)
 </span></span></foreignObject></svg></code></pre>
 <p>tips: Rubyでは、関数とメソッドを明確に分けていない。Rubyの組み込みライブラリに含まれるメソッドを慣例的に関数と呼ぶことがある。</p>
-<p>tips: <code>p</code>メソッドを使っても同じ出力を得られる。 <code>puts</code> を使うと少し異なった出力になるので注意しよう。</p>
+<p>tips: <code>puts</code>メソッドを使っても同じ出力を得られる。 <code>p</code> を使うと少し異なった出力になるので注意しよう。</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-heading-divider="3" style="--heading-divider:3;">
 <h3>plus alpha</h3>
@@ -160,8 +160,8 @@ name = gets().chomp()
 puts(<span class="hljs-string">&quot;こんにちは <span class="hljs-subst">#{name}</span>さん&quot;</span>)
 </span></span></foreignObject></svg></code></pre>
 <p>tips: <code>gets()</code> メソッドで入力を受け付けることができる<br />
-tips: <code>puts</code>と同じで<code>gets</code>も改行が入ってしまうので、 string オブジェクトのメソッド、<code>chomp</code> を使って最後の文字（改行）を取り除くと綺麗になる。</p>
-<p>tips: オブジェクトに対して呼ぶメソッドについて、<code>.</code>を使ってメソッドを使った場合、<code>.</code>の前のオブジェクトを操作するメソッドが呼び出される。<code>gets().chomp()</code>は、 <code>gets</code>したものを<code>chomp</code>するという意味。メソッドコールはチェーン（連鎖）できる。</p>
+tips: <code>puts</code>と同じで<code>gets</code>も改行が入ってしまうので、 string オブジェクトのメソッド、<code>chomp</code> を使って最後の文字（改行）を取り除くと綺麗になる。<br />
+tips: オブジェクトに対して呼ぶメソッドについて、<code>.</code>を使ってメソッドを使った場合、<code>.</code>の前のオブジェクトを操作するメソッドが呼び出される。<code>gets().chomp()</code>は、 <code>gets</code>したものを<code>chomp</code>するという意味。メソッドコールはチェーン（連鎖）できる。</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-heading-divider="3" style="--heading-divider:3;">
 <h3>plus alpha</h3>
