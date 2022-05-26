@@ -56,12 +56,9 @@ Ruby はオブジェクト指向プログラミングのため、オブジェク
 ### サンプルコード
 ```rb
 class Cat
+  attr_accessor: :name
   def make_sound
     puts "meow"
-  end
-
-  def name(name)
-    @name = name
   end
 end
 ```
