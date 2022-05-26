@@ -40,7 +40,7 @@ puts "true" if ""
 puts "true" if 0
 ```
 
-tips: ruby では `false` と等価なのは、 `nil` と `0` そして、 `false` 自身のみである。
+tips: ruby では `false` と等価なのは、 `nil` と `false` 自身のみである。
 tips: ruby では、後置if という `if`のキーワードと論理式を true の時に実行する式の後に置くことができる。また、 `then` のキーワードは省略できる。
 
 ## クラス
